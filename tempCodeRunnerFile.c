@@ -1,10 +1,2 @@
-int delete(){
-//     if(top<0)
-//         printf("Array is empty.....\n");
-//     else{
-//         top--;
-//         a[top] = val;
-
-//     }
-
-// }
+insertEnd(40);
+    // insertEnd(50);
