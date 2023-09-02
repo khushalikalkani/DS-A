@@ -40,6 +40,36 @@ void insertEnd(int val){
     return;
 }
 
+void insertfirst(int val){
+    struct node *ptr = head;
+    struct node *temp = malloc(sizeof(struct node));
+    temp -> data = val;
+    temp -> next = head;
+    if(head == NULL){
+        head = temp;
+        return;
+    }
+
+    while(ptr -> next != NULL)
+    {
+        ptr = ptr -> next;
+    }
+     head = temp;
+    return;
+}
+
+void deletefirst(){
+    struct node *ptr = head;
+   
+    if(head = ptr -> next){
+        free(ptr);
+        return;
+    }
+
+   
+}
+
+
 void deleteEnd(){
     struct node *ptr = head;
     struct node *p;
@@ -68,7 +98,11 @@ int main(){
     Display();
     deleteEnd();
     deleteEnd();
-    deleteEnd();
-    deleteEnd();
+    Display();
+    insertfirst(90);
+    insertfirst(80);
+    insertfirst(70);
+    Display();
+    deletefirst();
     Display();
 }
