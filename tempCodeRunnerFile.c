@@ -1,9 +1,1 @@
-insertEnd(10);
-    insertEnd(20);
-    insertEnd(30);
-    insertEnd(40);
-    insertEnd(50);
-    Display();
-    deleteEnd();
-    deleteEnd();
-    Display();
+  // deletefirst();
