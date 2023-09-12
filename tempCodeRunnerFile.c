@@ -1,2 +1,2 @@
-temp -> next = head -> prev;
-    //  head -> next = ptr;
+ temp -> next = head -> prev;
+     head -> next = ptr; 
